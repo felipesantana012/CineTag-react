@@ -1,7 +1,7 @@
-import Cabecalho from "../../componentes/Cabecalho";
-import Container from "../../componentes/Container";
-import Rodape from "../../componentes/Rodape";
-import FavoritosProvider from "../../contextos/Favoritos.jsx";
+import Cabecalho from "@/componentes/Cabecalho";
+import Container from "@/componentes/Container";
+import Rodape from "@/componentes/Rodape";
+import FavoritosProvider from "@/contextos/Favoritos.jsx";
 import { Outlet } from "react-router-dom";
 
 const PaginaBase = () => {

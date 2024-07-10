@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
-import Banner from "../../componentes/Banner";
-import Titulo from "../../componentes/Titulo";
+import Banner from "@/componentes/Banner";
+import Titulo from "@/componentes/Titulo";
 import styles from "./Player.module.css";
 import NaoEncontrada from "../NaoEncontrada";
 import { useEffect, useState } from "react";
-import { URL } from "../../json/configURL.jsx";
+import { URL } from "@/json/configURL.jsx";
 const Player = () => {
   const [video, setVideo] = useState([]);
   const parametros = useParams();

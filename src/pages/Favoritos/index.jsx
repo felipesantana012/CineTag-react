@@ -1,8 +1,8 @@
 import styles from "./Favoritos.module.css";
-import Banner from "../../componentes/Banner";
-import Card from "../../componentes/Card";
-import Titulo from "../../componentes/Titulo";
-import { useFavoritoContext } from "../../contextos/Favoritos";
+import Banner from "@/componentes/Banner";
+import Card from "@/componentes/Card";
+import Titulo from "@/componentes/Titulo";
+import { useFavoritoContext } from "@/contextos/Favoritos";
 
 const Favoritos = () => {
   const { favorito } = useFavoritoContext();
